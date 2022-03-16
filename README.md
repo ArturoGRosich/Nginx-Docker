@@ -1,6 +1,6 @@
 # Nginx-Docker
 
-##Buscamos en dockerHub NJinx y nos lo instalamos
+## Buscamos en dockerHub NJinx y nos lo instalamos
 ![image](https://user-images.githubusercontent.com/92529346/158658212-e10beb68-fbf7-4042-ab99-3a54e92b00a7.png)
 
 Luego realizamos docker pull nginx, bajandonos la imagen para poder utilizarla, permitiendonos crear contenedores docker a partir de ella con el siguiente comando 
@@ -24,6 +24,6 @@ Una vez creados el dockerfile y el html ejecutamos el dockerfile con el siguient
 y al abrir localhost/8080 podemos ver la pagina
   
 ![image](https://user-images.githubusercontent.com/92529346/158661323-9d2eba81-1276-47fc-98b1-b6cd13a01ddb.png)
-####¿Se puede usar la imagen en una VM microsoft azure?
+#### ¿Se puede usar la imagen en una VM microsoft azure?
 
   Es posible subir la imágen a Docker Hub para después ser consumida por la VM de Microsoft Azure, simplemente se tendrá que instalar Docker en esa máquina para que pueda descargar la imágen y crear un contenedor sobre ella.
